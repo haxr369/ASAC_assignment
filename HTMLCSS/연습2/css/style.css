@@ -7,7 +7,16 @@ a {
     color: azure;
 }
 
-h1 {
+#title {
     font-size: 60px;
     color: aquamarine;
+}
+
+.index {
+    font-size: 30px;
+    color: rgb(255, 127, 200);
+}
+
+.intro {
+    color: aqua;
 }
