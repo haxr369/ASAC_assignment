@@ -20,3 +20,13 @@ a {
 .intro {
     color: aqua;
 }
+
+.earth-title {
+    font-size: 60px;
+    color: black;
+}
+
+#mars-title {
+    font-size: 60px;
+    color: lightsalmon;
+}
