@@ -1,6 +1,12 @@
-body {
+body { /*페이지 전체에 영향 주는 body element*/
     background-color: #333;
     color: #f4f4f4;
+}
+
+header {
+    background-color: white;
+    color: #333;
+    width : 100px
 }
 
 a {
