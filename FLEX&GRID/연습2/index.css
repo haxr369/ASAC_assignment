@@ -1,0 +1,19 @@
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+  /* 
+  flex-wrap: wrap; 
+  기본은 flex-wrap은 nowrap이다. 하지만, wrap하게 될 경우,
+  컨테이너가 유연해지면서 컨테이너 내부 요소의 값을 변화시키지 않게한다.
+  nowrap하게 되면 내부 요소 값을 수정해서 컨테이너의 형태를 유지하려한다. */
+  
+
+}
+/* 
+.container > div {
+    width: 300px;
+} */
+
+.search {
+    flex: 1;
+}
