@@ -1,0 +1,58 @@
+/* 기본 설정 */
+ul {
+    list-style: none;
+}
+
+.MainBar_Menu > li {
+    flex: 1 1;
+}
+
+
+/* 화면 너비에 따라 변하도록 */
+/* 넓은 화면에서 보이는 것 */
+@media (max-width: 700px) {
+    .smMoreVisible {
+        display: none;
+    }
+    .signUpButton {
+        display: none;
+    }
+    .compService {
+        display: none;
+    }
+}
+
+/* 좁은 화면에서 보이는 것 */
+@media (min-width: 700px) {
+    .signUpBtn {
+      display: none;
+    }
+    .Aside_visibleMenu__Dki9n{
+        display: none;
+    }
+}
+
+.MainBar_MainBer_Nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.MainBar_MainBer_nav_top {
+    display: flex;
+}
+.signUpBtn{
+    margin-left: auto;
+}
+
+
+.MainBar_Menu {
+    display: flex;
+    /* 늘어남과 감소가 모든 요소에서 1대1 */
+    flex: 1 1;
+}
+
+
+.MainBar_Aside_list {
+    display: flex;
+}
