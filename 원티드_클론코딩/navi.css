@@ -1,0 +1,134 @@
+/* 기본 설정 */
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.MainBar_Menu > li >a{
+    
+    padding: 11px 10px 19px;
+}
+.NavBar_1{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 800;
+}
+
+/* 화면 너비에 따라 변하도록 */
+/* 좁은 화면에서 보이는 것 */
+@media (max-width: 800px) {
+    .smMoreVisible {
+        display: none;
+    }
+    .signUpButton {
+        display: none;
+    }
+    .compService {
+        display: none;
+    }
+    .MainBar_MainBer_nav_top {
+        width: 100%;
+    }
+    .signUpBtn {
+        margin-left: auto;
+    }
+    .MainBar_Aside {
+        margin-left: auto;
+    }
+    .paddingNavi{
+        height: 90px;
+    }
+    .OverLayerJobCategory {
+        display: none;
+    }
+}
+
+/* 넓은 화면에서 보이는 것 */
+@media (min-width: 800px) {
+    .signUpBtn {
+      display: none;
+    }
+    .Aside_visibleMenu__Dki9n{
+        display: none;
+    }
+    .MainBar_Menu {
+        justify-content: space-between;
+    }
+    .MainBar_MainBer_Nav{
+        align-items: center;
+        justify-content: space-between;
+    }
+    .paddingNavi{
+        height: 61.5px;
+    }
+}
+
+ body {
+    margin: 0px 0px;
+}
+
+.MainBar_MainBer_Nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.MainBar_MainBer_nav_top {
+    display: flex;
+    /* margin: 20px 20px 0px 20px; */
+}
+
+.MainBar_Menu {
+    display: flex;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.MainBar_Aside {
+    margin-right: 20px;
+}
+
+.MainBar_Aside_list {
+    display: flex;
+}
+
+.MainBar_boundary {
+    width:100%;
+    margin-top: 10px;
+    border-color: #bbb9b9;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.OverLayerJobCategory{
+    background-color: white;
+    position: fixed;
+    margin-left: 20px;
+    z-index: 800;
+    display: none;
+}
+
+.Explor_Container{
+    position: relative;
+    width: 160px;
+}
+.paddingNavi {
+    margin: 0px;
+}
+
+
+
+
+
+.dumyDiv{
+    display: block;
+    padding-top: 25px;
+    height: 300px;
+    background-color: blueviolet;
+}
