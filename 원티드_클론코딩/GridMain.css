@@ -10,10 +10,40 @@
 
 .featuredJobList{
     margin: 0 auto;
-    width: 90%;
+    max-width: 800px;
+    width: 80%;
     padding: 70px 0 50px;
 }
 
 .positionFeatured {
+    text-align: center;
+    position: relative;
     margin-bottom: 30px;
 }
+
+
+.jop-List {
+    display: grid;
+    grid-gap: 5px;
+    background-color: #ffeead;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 100px;
+}
+
+
+
+
+.dumyBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #ffeead;
+  }
+
+
+/* 넓은 화면에서 보이는 것 */
+@media (min-width: 800px) {}
+
+/* 좁은 화면에서 보이는 것 */
+@media (max-width: 800px) {}
