@@ -1,0 +1,19 @@
+
+.Divider_divider__IzBiR {
+    width:90%;
+    margin-top: 10px;
+    border-color: #bbb9b9;
+    border-style: solid;
+    border-width: 1px;
+    margin: 10px auto 10px;
+}
+
+.featuredJobList{
+    margin: 0 auto;
+    width: 90%;
+    padding: 70px 0 50px;
+}
+
+.positionFeatured {
+    margin-bottom: 30px;
+}
