@@ -1,7 +1,7 @@
 var clickBtn = document.getElementsByClassName('searchButton');
 
 function search_open(){
-    window.open('searchPop.html', 'window_name', 'width=330, height=200, location=no, status=no, scrollbars=yes');
+    window.open('static/searchPop.html', 'window_name', 'width=330, height=200, location=no, status=no, scrollbars=yes');
 }
 
 // 메뉴바 list만들기
