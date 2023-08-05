@@ -12,7 +12,7 @@
     margin: 0 auto;
     max-width: 800px;
     width: 80%;
-    padding: 70px 0 50px;
+    padding: 40px 0 50px;
 }
 
 .positionFeatured {
@@ -26,8 +26,7 @@
     display: grid;
     grid-gap: 5px;
     background-color: #ffeead;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: 100px;
+    
 }
 
 
@@ -43,7 +42,17 @@
 
 
 /* 넓은 화면에서 보이는 것 */
-@media (min-width: 800px) {}
+@media (min-width: 800px) {
+    .jop-List {
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: 300px;
+    }
+}
 
 /* 좁은 화면에서 보이는 것 */
-@media (max-width: 800px) {}
+@media (max-width: 800px) {
+    .jop-List {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 300px;
+    }
+}
