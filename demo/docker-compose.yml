@@ -18,15 +18,17 @@ services:
 
   mysqldb :
     container_name: mysqldb
-    image : "mysql"
-    command: --init-file /var/lib/mysql/init.sql
+    image : "mysql:latest"
+    command: --init-file /home/app/init.sql
     volumes:
       - /Users/solsol/ASAC_assignment/demo/db:/var/lib/mysql
+      - /Users/solsol/ASAC_assignment/demo/mysql/init.sql:/home/app/init.sql
+      #- /Users/solsol/ASAC_assignment/demo/mysql/my.cnf:/etc/my.cnf
     ports:
       - 3307:3306
     environment:
+      MYSQL_ROOT_PASSWORD: root1234
       MYSQL_DATABASE: myfirstdb
-      MYSQL_ROOT_PASSWORD: root
     networks:
       - springboot_mysql_net
 
