@@ -14,8 +14,6 @@ services:
       MYSQL_PASSWORD: 3219
     networks:
       - springboot_mysql_net
-
-
   mysqldb :
     container_name: mysqldb
     build:
@@ -33,7 +31,6 @@ services:
       MYSQL_ROOT_PASSWORD: root
     networks:
       - springboot_mysql_net
-
 networks:
   springboot_mysql_net:
     driver: bridge
