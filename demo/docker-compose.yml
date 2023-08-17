@@ -12,13 +12,15 @@ services:
       MYSQL_PORT: 3306
       MYSQL_USER: myspringboot
       MYSQL_PASSWORD: 3219
+      MYSQL_DB: myfirstdb
     networks:
       - springboot_mysql_net
   mysqldb :
     container_name: mysqldb
-    build:
-      context: ./mysql
-      dockerfile: Dockerfile
+#    build:
+#      context: ./mysql
+#      dockerfile: Dockerfile
+    image: mysql:8.1.0
     volumes:
       - /Users/solsol/ASAC_assignment/demo/db:/var/lib/mysql
     ports:
@@ -27,7 +29,6 @@ services:
       MYSQL_USER: myspringboot
       MYSQL_PASSWORD: 3219
       MYSQL_DATABASE: myfirstdb
-      MYSQL_HOST: spring-app
       MYSQL_ROOT_PASSWORD: root
     networks:
       - springboot_mysql_net
