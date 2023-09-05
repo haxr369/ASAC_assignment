@@ -1,27 +1,55 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "target": "es6",
+    "lib": [
+      "es6",
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "noEmit": true,
-    "esModuleInterop": true,
+    //"skipLibCheck": true, Lib 점검 건너뛰기는 엄격한 타입 체킹과 맞지 않는것 같다
+    "strict": true, // 엄격한 타입 체킹
+    "noEmit": true, // SWC와 쓰려면 필수
+    "esModuleInterop": true, // 모든 imports에 대한 namespace 생성
     "module": "esnext",
-    "moduleResolution": "bundler",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
+    "moduleResolution": "bundler", // 번들러를 사용한다
+    "resolveJsonModule": true, // 확장자가 json이러도 사용
+    "isolatedModules": true, // 각 파일을 분리된 모듈로 트랜스파일하기 때문에 꼭 import / export 로 닫아야하게끔 강제
     "jsx": "preserve",
     "incremental": true,
+    // mui 추천 설정
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
     "plugins": [
       {
         "name": "next"
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
-    }
+      // 전역 경로
+      "@/*": [
+        "./src/*"
+      ],
+      "@auth/*": [
+        "./src/app/auth/*"
+      ],
+      "@db/*": [
+        "./db/*"
+      ]
+    },
+    "skipLibCheck": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "db/**/*.json",
+    "src/**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
