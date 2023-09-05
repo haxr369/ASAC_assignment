@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 const StyledButton = styled.button`
   border-radius: 4px;
@@ -10,13 +10,13 @@ const StyledButton = styled.button`
   background: linear-gradient(to bottom, #ff0055 0%, #e62243 100%);
   width: 144px;
   height: 48px;
-`;
+`
 
 interface JoinAndLoginProps {
-  loginText: string;
-  jointext: string;
-  onJoinClick: () => void;
-  onLoginClick: () => void;
+  loginText: string
+  jointext: string
+  onJoinClick: () => void
+  onLoginClick: () => void
 }
 
 function Buttons(props: JoinAndLoginProps) {
@@ -36,7 +36,7 @@ function Buttons(props: JoinAndLoginProps) {
         </div>
       </div>
     </section>
-  );
+  )
 }
 
-export default Buttons;
+export default Buttons

@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "imageURLs": [
+      "https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Fcompany%2F4248%2Fg2c7y5q9xilzijcy__1080_790.jpg&w=1000&q=75",
+      "https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Fcompany%2F4248%2Fmiabp65c9r7odknq__1080_790.jpg&w=1000&q=75",
+      "https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Fcompany%2F4248%2F83edugwxwjkutm9u__1080_790.jpg&w=1000&q=75",
+      "https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Fcompany%2F4248%2Fss5ozmdham4epqyo__1080_790.jpg&w=1000&q=75",
+      "https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Fcompany%2F4248%2Ftvwpdvrkc7bhjotj__1080_790.jpg&w=1000&q=75",
+      "https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Fcompany%2F4248%2F16230_2_3.293aaf0a__1080_790.jpg&w=1000&q=75"
+    ],
+    "jobName": "Data Analyst (고객파트너프로덕트실)",
+    "companyName": "무신사",
+    "nation": "한국",
+    "region": "서울",
+    "companyIntro": "무신사는 패션 시장의 판도를 바꾸며 빠르게 성장하는 패션 버티컬 서비스 기업입니다. 사람들이 자신의 취향에 맞는 개성을 찾을 수 있도록 다양한 패션 스타일을 제시하고, 국내외 패션 브랜드가 더욱 매력적으로 보일 수 있도록 브랜드 정체성과 상품 가치를 멋지고 흥미롭게 소개합니다. 또한 누구나 시간과 장소에 구애 받지 않고 패션 브랜드를 즐길 수 있도록 데이터와 기술을 활용한 개인화된 쇼핑 경험으로 제공하며 패션 비즈니스의 혁신을 만들고 있습니다.",
+    "teamIntro": "무신사 테크 조직은 혁신의 원동력이자, 가장 먼저 변화를 이끌어낼 핵심 기술 조직입니다. 고객과 입점 브랜드 모두가 고유한 개성을 마음껏 표현할 수 있도록 데이터와 기술을 바탕으로 개인화된 경험을 제공합니다. 무신사 테크 조직은 항상 새로운 영역에서의 성공을 꿈꾸며 도전하는 것을 두려워하지 않습니다. 무신사와 함께 한국을 넘어 글로벌 무대에서 경쟁력 있는 서비스를 만들어갈 인재를 찾고 있습니다.",
+    "mainWork": [
+      "목표를 달성하기 위한 지표를 설정하고 문제를 해결하기 위한 가설을 수립하고 이를 검증하기 위한 실험을 설계합니다.",
+      "스쿼드의 일원으로서 비즈니스/제품에 대한 데이터 기반의 의사결정을 내릴 수 있도록 정량적인 분석 결과 및 인사이트를 제공합니다.",
+      "프로덕트, 디자인, 엔지니어링, 마케팅, 세일즈 등 다양한 직무의 동료들과 크로스펑셔널(cross-functional)한 비즈니스 문제를 정의하고 분석하고 해결합니다.",
+      "전사 핵심 지표의 변화 추세 확인 및 원인 분석을 위한 대시보드를 구축하고 관리합니다."
+    ],
+    "qualification": [
+      "데이터 분석 분야에서 최소 5년 이상의 경험 또는 그에 준하는 역량 보유하신 분",
+      "복잡하고 정리되어 있지 않은 문제 해결을 위한 데이터 기반 사고와 비판적 의사결정 능력을 보유하신 분",
+      " 코호트 분석, A/B 테스트, 퍼널 분석 등의 분석 방법론에 대한 이해 및 실무 적용 경험이 있으신 분",
+      "사용자 행동 로그 설계, 액션에 따른 성과분석 경험이 있으신 분",
+      "SQL을 사용해 Raw Data를 가공 및 활용하여 데이터 분석이 가능한 분",
+      "A, Amplitude, Tableau, Redash, Metabase 등 데이터 분석 도구 사용 경험이 있으신 분"
+    ],
+    "deadline": "상시",
+    "workingArea": "강남구 언주로174길 30, 3층"
+  }
+]

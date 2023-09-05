@@ -1,12 +1,7 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "lib": [
-      "es6",
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["es6", "dom", "dom.iterable", "esnext"],
     "allowJs": true,
     //"skipLibCheck": true, Lib 점검 건너뛰기는 엄격한 타입 체킹과 맞지 않는것 같다
     "strict": true, // 엄격한 타입 체킹
@@ -29,15 +24,9 @@
     ],
     "paths": {
       // 전역 경로
-      "@/*": [
-        "./src/*"
-      ],
-      "@auth/*": [
-        "./src/app/auth/*"
-      ],
-      "@db/*": [
-        "./db/*"
-      ]
+      "@/*": ["./src/*"],
+      "@auth/*": ["./src/app/auth/*"],
+      "@jobdetail/*": ["./src/app/jobdetail/*"]
     },
     "skipLibCheck": true
   },
@@ -49,7 +38,5 @@
     "src/**/*.tsx",
     ".next/types/**/*.ts"
   ],
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }

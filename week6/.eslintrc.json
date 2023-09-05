@@ -1,3 +1,18 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "next/core-web-vitals",
+    "@typescript-eslint-recommended",
+    "prettier/@typescript-eslint",
+    "plugin:prettier/recommended" // eslint에 prettier가 충돌나지 않게 설정, prettier 규칙에 맞지 않는 요소는 error
+  ],
+  "plugins": ["typescript-eslint", "react", "react-hooks"], // 리액트 hoots 규칙들 적용], // typescript는 TS(TypeScript)에 대한 정적 분석을 지원하는 플러그
+  // 사용할 규칙 설정
+  "rules": {
+    "semi": "error",
+    "no-console": "error",
+    "react/jsx-filename-extension": [
+      1,
+      { "extensions": [".js", ".jsx", ".tsx"] } //jsx사용가능한 확장자 설정
+    ]
+  }
 }
