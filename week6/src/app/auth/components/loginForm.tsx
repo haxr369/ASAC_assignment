@@ -45,7 +45,7 @@ function LoginForm(props: LoginProps) {
   })
 
   const onSubmit = (data: IForm) => {
-    if (data.email != 'helloworld@gamil.com') {
+    if (data.email != 'abc@gmail.com') {
       dispatch({ type: 'open', text: '이메일이 맞지 않습니다.', isOpen: true })
       return
     }
@@ -92,7 +92,7 @@ function LoginForm(props: LoginProps) {
             <p className={styles.inp_wrap}>
               <input
                 type="password"
-                placeholder="12!@asAS"
+                placeholder="12!@qwQW"
                 className={styles.pwd_input}
                 {...register('pwd', {
                   required: true,

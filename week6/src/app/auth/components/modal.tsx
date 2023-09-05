@@ -23,7 +23,10 @@ interface ModalPropsType {
 function Modal(props: ModalPropsType) {
   const { text, isOpen } = useContext(ModalContext)
   return (
-    <ReactModal isOpen={isOpen ?? false} style={customStyles}>
+    <ReactModal
+      ariaHideApp={false}
+      isOpen={isOpen ?? false}
+      style={customStyles}>
       <div>
         <section className="m-auto">
           <div className="text-center f">
